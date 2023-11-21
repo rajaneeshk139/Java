@@ -1,0 +1,7 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+abalone = pd.read_csv('../input/estimating-the-age-of-abalone-at-a-seafood-
+farm/abalone.csv')
+abalone.head()
